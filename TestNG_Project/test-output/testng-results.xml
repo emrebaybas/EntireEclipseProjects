@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-03T11:18:02 EST" name="Suite" finished-at="2020-03-03T11:18:02 EST" duration-ms="42">
+    <groups>
+      <group name="Smoke">
+        <method signature="G1.m2()[pri:0, instance:test.G1@fdefd3f]" name="m2" class="test.G1"/>
+        <method signature="G2.mb()[pri:0, instance:test.G2@d83da2e]" name="mb" class="test.G2"/>
+        <method signature="G3.mY()[pri:0, instance:test.G3@a4102b8]" name="mY" class="test.G3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-03-03T11:18:02 EST" name="demoBASuite" finished-at="2020-03-03T11:18:02 EST" duration-ms="42">
+      <class name="test.G1">
+        <test-method signature="m2()[pri:0, instance:test.G1@fdefd3f]" started-at="2020-03-03T11:18:02 EST" name="m2" finished-at="2020-03-03T11:18:02 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- test.G1 -->
+      <class name="test.G2">
+        <test-method signature="mb()[pri:0, instance:test.G2@d83da2e]" started-at="2020-03-03T11:18:02 EST" name="mb" finished-at="2020-03-03T11:18:02 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mb -->
+      </class> <!-- test.G2 -->
+      <class name="test.G3">
+        <test-method signature="mY()[pri:0, instance:test.G3@a4102b8]" started-at="2020-03-03T11:18:02 EST" name="mY" finished-at="2020-03-03T11:18:02 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mY -->
+      </class> <!-- test.G3 -->
+    </test> <!-- demoBASuite -->
+  </suite> <!-- Suite -->
+</testng-results>

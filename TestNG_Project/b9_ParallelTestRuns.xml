@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- HERE IN THE SUITE BY ADDING {parallel="tests" thread-count="2"} THESE YOU CAN RUN 2 TEST AT A TIME PARALLEL -->
+<suite name="Suite" parallel="tests" thread-count="2">
+  
+  <test  name="CarLoan">
+  	
+    <classes>
+      <class name="test.P5_ListenersDemo2"/>
+    </classes>
+    
+  </test>
+  
+  <test  name="MortgageLoan">
+  	
+    <classes>
+      <class name="test.P6_ParallelTestRunning"/>
+    </classes>
+    
+  </test>
+  
+  
+</suite> <!-- Suite -->
