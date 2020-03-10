@@ -14,13 +14,13 @@ public class a1 {
 	
 	driver.manage().window().maximize();
 	
-//	driver.findElement(By.id("email")).sendKeys("hahahah@hhah.com");
-//	driver.findElement(By.id("pass")).sendKeys("1234sd");
-//	Thread.sleep(1000);
-//	driver.findElement(By.xpath("//input[@data-testid='royal_login_button']")).click();
-//		
-//	Thread.sleep(2000);
-//	driver.findElementByClassName("fb_logo").click();
+	driver.findElement(By.id("email")).sendKeys("hahahah@hhah.com");
+	driver.findElement(By.id("pass")).sendKeys("1234sd");
+	Thread.sleep(1000);
+	driver.findElement(By.xpath("//input[@data-testid='royal_login_button']")).click();
+		
+	Thread.sleep(2000);
+	driver.findElementByClassName("fb_logo").click();
 	
 //	driver.findElementByLinkText("Forgot account?").click();
 //	driver.navigate().back();
