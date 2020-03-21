@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 02 23:36:06 EST 2020</td>
+<td>Started on:</td><td>Thu Mar 19 20:42:57 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (67 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (53 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,12 +79,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
 	at test.P4_ListenersDemo.m1(P4_ListenersDemo.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace385047561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace385047561'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1233990028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1233990028'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.failNotEquals(Assert.java:969)
 	at org.testng.Assert.assertTrue(Assert.java:43)
@@ -106,16 +102,21 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test.P4_ListenersDemo@6156496</td></tr>
+<td>test.P4_ListenersDemo@b62fe6d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -125,40 +126,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.P5_ListenersDemo2.m0()'><b>m0</b><br>Test class: test.P5_ListenersDemo2</td>
-<td></td>
-<td>0</td>
-<td>test.P5_ListenersDemo2@22635ba0</td></tr>
-<tr>
 <td title='test.P4_ListenersDemo.m0()'><b>m0</b><br>Test class: test.P4_ListenersDemo</td>
 <td></td>
 <td>0</td>
-<td>test.P4_ListenersDemo@6156496</td></tr>
-<tr>
-<td title='test.P5_ListenersDemo2.m1()'><b>m1</b><br>Test class: test.P5_ListenersDemo2</td>
-<td></td>
-<td>0</td>
-<td>test.P5_ListenersDemo2@22635ba0</td></tr>
-<tr>
-<td title='test.P5_ListenersDemo2.m2()'><b>m2</b><br>Test class: test.P5_ListenersDemo2</td>
-<td></td>
-<td>0</td>
-<td>test.P5_ListenersDemo2@22635ba0</td></tr>
+<td>test.P4_ListenersDemo@b62fe6d</td></tr>
 <tr>
 <td title='test.P4_ListenersDemo.m2()'><b>m2</b><br>Test class: test.P4_ListenersDemo</td>
 <td></td>
 <td>0</td>
-<td>test.P4_ListenersDemo@6156496</td></tr>
-<tr>
-<td title='test.P5_ListenersDemo2.m3()'><b>m3</b><br>Test class: test.P5_ListenersDemo2</td>
-<td></td>
-<td>0</td>
-<td>test.P5_ListenersDemo2@22635ba0</td></tr>
+<td>test.P4_ListenersDemo@b62fe6d</td></tr>
 <tr>
 <td title='test.P4_ListenersDemo.m3()'><b>m3</b><br>Test class: test.P4_ListenersDemo</td>
 <td></td>
 <td>0</td>
-<td>test.P4_ListenersDemo@6156496</td></tr>
+<td>test.P4_ListenersDemo@b62fe6d</td></tr>
 </table><p>
 </body>
 </html>

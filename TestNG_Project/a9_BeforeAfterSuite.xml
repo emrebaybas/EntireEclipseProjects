@@ -12,7 +12,7 @@
       <class name="test.A4"/>
       <class name="test.A444_BeforeAfterSuite"/>
       <class name="test.A6"/>
-      <class name="test.A7"/>
+  	<class name="test.A7"/> 
       
     </classes>
   </test> 

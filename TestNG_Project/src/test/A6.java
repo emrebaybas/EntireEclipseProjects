@@ -18,7 +18,7 @@ public class A6 {
 	
 	@BeforeTest
 	public void XsetPage() {
-		System.out.println("Go to the 'https://www.abcd.com'");
+		System.out.println("thanks for coming back");
 	}
 	
 }

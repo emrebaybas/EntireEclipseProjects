@@ -33,11 +33,7 @@ public class d7_StaleElementExceptionLoopClicking {
 		//Languages part on FaceBook will not allow CONTROL BUTTON TO open in new Tab 
 		//So We will click manually one by one
 
-		
-		
-		
-		
-		
+
 
 		//		Other link in the footer can be automated by openin in a new tab easily
 		
@@ -53,8 +49,6 @@ public class d7_StaleElementExceptionLoopClicking {
 			pageFooterChildren.findElements(By.tagName("a")).get(i).sendKeys(newTabClick);	
 		}
 		
-			
-
 	
 
 	}

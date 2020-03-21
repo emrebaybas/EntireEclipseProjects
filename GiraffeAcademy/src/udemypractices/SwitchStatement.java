@@ -1,10 +1,9 @@
 package udemypractices;
 
-public class SwitchStatement {
+public class SwitchStatement extends  StringExample{
 	public static void main(String[] args) {
 
-		int month = 13;
-
+	int month =4;
 		switch (month) {
 		case (12):
 		case (1):

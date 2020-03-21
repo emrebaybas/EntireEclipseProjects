@@ -10,7 +10,10 @@ class C {
 
 class D extends C {
 	int d;
-
+ 
+	A aa=new A();
+	
+	
 	void print() {
 		System.out.println(d);
 	}

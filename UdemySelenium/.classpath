@@ -19,5 +19,6 @@
 	<classpathentry kind="lib" path="C:/Users/emrba/OneDrive/Masaüstü/Drivers/Apache-commons-io-2.6-ScreenShotJar/commons-io-2.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/emrba/OneDrive/Masaüstü/Drivers/Apache-commons-io-2.6-ScreenShotJar/commons-io-2.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/emrba/OneDrive/Masaüstü/Drivers/Apache-commons-io-2.6-ScreenShotJar/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/emrba/Downloads/htmlunit-driver-2.38.0-jar-with-dependencies.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

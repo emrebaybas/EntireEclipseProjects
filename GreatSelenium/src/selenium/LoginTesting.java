@@ -1,15 +1,21 @@
 package selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class LoginTesting {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C://Users//emrba//OneDrive//Masaüstü//Drivers//WebDrivers//chromedriver_win32/chromedriver.exe");
-		ChromeDriver driver=new ChromeDriver(); 
+		System.setProperty("webdriver.ie.driver", "C://Users//emrba//Drivers/IEDriverServer.exe");
+		DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+		caps.setCapability("ignoreZoomSetting", true);
+		WebDriver driver=new InternetExplorerDriver(caps); 
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		driver.manage().window().maximize();
 		
 		
 	

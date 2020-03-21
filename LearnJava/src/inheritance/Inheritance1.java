@@ -2,10 +2,12 @@ package inheritance;
 
  class A {            // Parent Class
  
+		protected int emre=30;
  int a;
  
  void display() {
 	 System.out.println(a);
+	 
     }
  }
 //------------------------------------------------------------------------------------------
@@ -16,6 +18,7 @@ package inheritance;
 	 
 	 void print() {
 		 System.out.println(b);
+		
 	 }
  }
 public class Inheritance1  {
@@ -24,7 +27,7 @@ public class Inheritance1  {
 		A o1=new A();
 		o1.a=100;
 		o1.display();
-		
+
 		B o2=new B();
 		o2.a=150;
 		o2.b=200;

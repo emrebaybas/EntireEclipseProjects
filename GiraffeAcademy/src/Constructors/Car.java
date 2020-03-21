@@ -11,9 +11,9 @@ public class Car {
 		this("not entered", "not entered");
 	}
 
-	public Car(String maker, String vehicleColor) {
-		this.make = maker;
-		this.color = vehicleColor;
+	public Car(String make, String color) {
+		this.make = make;
+		this.color =color;
 	}
 
 }
