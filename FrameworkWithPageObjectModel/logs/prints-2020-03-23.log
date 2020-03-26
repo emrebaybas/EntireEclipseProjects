@@ -1,0 +1,9 @@
+16:47:00.955 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully logged in
+16:47:11.465 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:47:11.471 [main] INFO  com.orangehrmive.test.LoginPageTest - Login page title is validated
+16:47:21.878 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:47:26.136 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to Facebook
+16:47:36.643 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:47:37.044 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to forgot password page
+16:47:47.534 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:47:51.811 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to LinkedIn

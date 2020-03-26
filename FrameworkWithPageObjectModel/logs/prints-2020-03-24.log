@@ -1,0 +1,9 @@
+16:48:02.360 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:48:06.667 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to OrangeHrm.com
+16:48:17.269 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:48:17.299 [main] INFO  com.orangehrmive.test.LoginPageTest - Orange HRM image is displayed as per requirements
+16:48:27.829 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:48:32.097 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to Twitter
+16:48:42.646 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page
+16:48:46.943 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully navigated to Youtube
+12:11:48.204 [main] INFO  com.orangehrmive.test.LoginPageTest - Successfully initialize the driver and navigated to login page

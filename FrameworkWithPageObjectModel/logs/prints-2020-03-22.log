@@ -1,0 +1,8 @@
+17:35:46.092 [main] INFO  com.orangehrmive.test.DashboardPageTest - Orange Hrm image link is displayed
+17:35:57.620 [main] INFO  com.orangehrmive.test.DashboardPageTest - Successfully initialize the driver, logged in and navigated to dashboard page
+17:36:13.266 [main] INFO  com.orangehrmive.test.DashboardPageTest - Successfully initialize the driver, logged in and navigated to dashboard page
+17:36:13.277 [main] INFO  com.orangehrmive.test.DashboardPageTest - Dashboard page title is verified
+17:37:46.501 [main] INFO  com.orangehrmive.test.DashboardPageTest - Successfully initialize the driver, logged in and navigated to dashboard page
+17:37:46.550 [main] INFO  com.orangehrmive.test.DashboardPageTest - Orange Hrm image link is displayed
+17:37:58.112 [main] INFO  com.orangehrmive.test.DashboardPageTest - Successfully initialize the driver, logged in and navigated to dashboard page
+17:38:13.657 [main] INFO  com.orangehrmive.test.DashboardPageTest - Successfully initialize the driver, logged in and navigated to dashboard page

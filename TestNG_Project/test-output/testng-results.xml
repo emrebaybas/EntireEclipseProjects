@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-20T18:51:48 EDT" name="Default suite" finished-at="2020-03-20T18:52:39 EDT" duration-ms="51515">
+  <suite started-at="2020-03-24T15:49:20 EDT" name="Default suite" finished-at="2020-03-24T15:52:19 EDT" duration-ms="178632">
     <groups>
     </groups>
-    <test started-at="2020-03-20T18:51:48 EDT" name="Default test" finished-at="2020-03-20T18:52:39 EDT" duration-ms="51515">
-      <class name="testng.naveen.automation.DataProviderNaveen">
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testng.naveen.automation.DataProviderNaveen@13acb0d1]" started-at="2020-03-20T18:51:48 EDT" name="login" data-provider="getData" finished-at="2020-03-20T18:52:07 EDT" duration-ms="18971" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[emre@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2020-03-24T15:49:20 EDT" name="Default test" finished-at="2020-03-24T15:52:19 EDT" duration-ms="178632">
+      <class name="test.aaaHashmapTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:49:20 EDT" name="initialize" finished-at="2020-03-24T15:49:31 EDT" duration-ms="11011" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testng.naveen.automation.DataProviderNaveen@13acb0d1]" started-at="2020-03-20T18:52:07 EDT" name="login" data-provider="getData" finished-at="2020-03-20T18:52:25 EDT" duration-ms="18314" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fazil@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateSuccessfulLoginWithValidCredentials()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:49:31 EDT" name="validateSuccessfulLoginWithValidCredentials" finished-at="2020-03-24T15:52:07 EDT" duration-ms="155413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testng.naveen.automation.DataProviderNaveen@13acb0d1]" started-at="2020-03-20T18:52:25 EDT" name="login" data-provider="getData" finished-at="2020-03-20T18:52:39 EDT" duration-ms="14193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[erhan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456456]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validateSuccessfulLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:52:07 EDT" name="tearDown" finished-at="2020-03-24T15:52:07 EDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testng.naveen.automation.DataProviderNaveen -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:52:07 EDT" name="initialize" finished-at="2020-03-24T15:52:18 EDT" duration-ms="10522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateUnsuccessfulLoginWithInvalidCredentials()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:52:18 EDT" name="validateUnsuccessfulLoginWithInvalidCredentials" finished-at="2020-03-24T15:52:19 EDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUnsuccessfulLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.aaaHashmapTest@d21a74c]" started-at="2020-03-24T15:52:19 EDT" name="tearDown" finished-at="2020-03-24T15:52:19 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.aaaHashmapTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
