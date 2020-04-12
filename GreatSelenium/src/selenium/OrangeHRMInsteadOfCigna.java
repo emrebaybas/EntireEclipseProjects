@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 
-public class loginHRM {
+public class OrangeHRMInsteadOfCigna {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C://Users//emrba//OneDrive//Masaüstü//Drivers//WebDrivers//chromedriver_win32/chromedriver.exe");
@@ -37,20 +37,20 @@ public class loginHRM {
 	
 		
 		
-//		driver.findElement(By.id("menu_admin_viewAdminModule")).click();
-//		driver.findElement(By.id("menu_admin_viewAdminModule")).click();
-//		Thread.sleep(2000);
+		driver.findElement(By.id("menu_admin_viewAdminModule")).click();
+		driver.findElement(By.id("menu_admin_viewAdminModule")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.id("btnAdd")).click();
 		
-//		WebElement orangeHrmImageLink=driver.findElement(By.xpath("//div[@id='branding']/a"));
-//		JavascriptExecutor js=((JavascriptExecutor)driver);
-//		js.executeScript("arguments[0].click();",orangeHrmImageLink);
+		WebElement orangeHrmImageLink=driver.findElement(By.xpath("//div[@id='branding']/a"));
+		JavascriptExecutor js=((JavascriptExecutor)driver);
+		js.executeScript("arguments[0].click();",orangeHrmImageLink);
 		
-//		
-//		Actions a=new Actions(driver);
-//		a.moveToElement(driver.findElement(By.xpath("//span[@id='pieLabel3']")),150,150).build().perform();
-//		
-//System.out.println(driver.findElement(By.xpath("//div[@id='hover_div_graph_display_emp_distribution']")).getText());
+		
+		Actions ac=new Actions(driver);
+		ac.moveToElement(driver.findElement(By.xpath("//span[@id='pieLabel3']")),150,150).build().perform();
+		
+System.out.println(driver.findElement(By.xpath("//div[@id='hover_div_graph_display_emp_distribution']")).getText());
 
 
 

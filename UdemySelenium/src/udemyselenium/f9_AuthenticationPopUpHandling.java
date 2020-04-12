@@ -6,6 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,5 +44,28 @@ public class f9_AuthenticationPopUpHandling {
 		//Format is         "https://USERNAME:PASSWORD@www.website.com"
 		
 		driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");	
+		
+		
+		
+			
+			
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
